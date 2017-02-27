@@ -10,31 +10,31 @@ var onRun = function(context) {
         factors = [
             {
                 folder: 'drawable-mdpi',
-                scale: 1,
+                scale: 0.5,
                 prefix: prefix,
                 suffix: '',
             },
             {
                 folder: 'drawable-hdpi',
-                scale: 1.5,
+                scale: 0.75,
                 prefix: prefix,
                 suffix: '',
             },
             {
                 folder: 'drawable-xhdpi',
-                scale: 2,
+                scale: 1,
                 prefix: prefix,
                 suffix: '',
             },
             {
                 folder: 'drawable-xxhdpi',
-                scale: 3,
+                scale: 1.5,
                 prefix: prefix,
                 suffix: '',
             },
 /*{
                 folder: 'drawable-xxxhdpi',
-                scale: 4,
+                scale: 2,
                 prefix: prefix,
                 suffix: '',
             },*/

@@ -14,7 +14,10 @@ com.geertwille = {
         this.factors = factors;
         this.document = document;
         this.selection = selection;
-        this.baseDir = this.getDirFromPrompt();
+        //this.baseDir = this.getDirFromPrompt();
+        this.baseDir = "/Volumes/MacintoshHD2/Delargo/Documents/AndroidWork/alphas-android/app/src/main/res/";
+
+        this.alert("start saving");
 
         if (this.baseDir == null) {
             this.alert("Not saving any assets");
@@ -63,6 +66,8 @@ com.geertwille = {
             // Restore selection
             artboard.selectLayers(selection);
         }
+
+        this.alert("Assert saved");
 
         // Open finder window with assets exported
         if (this.baseDir.indexOf('/res') > -1 && this.type == "android") {

@@ -12,7 +12,7 @@
             {
                 "name": "Export iOS Assets",
                 "identifier": "export-assets-ios",
-                "shortcut": "ctrl alt shift 1",
+                "shortcut": "ctrl alt shift 4",
                 "script": "Export iOS Assets.sketchscript"
             },
             {
@@ -21,10 +21,16 @@
                 "shortcut": "ctrl alt shift 2",
                 "script": "Export Android Assets.sketchscript"
             },
+	    {
+                "name": "Export Android Assets from retina",
+                "identifier": "export-assets-android-from-retina",
+                "shortcut": "ctrl alt shift 3",
+                "script": "Export Android Assets From Retina.sketchscript"
+            },
             {
                 "name": "Export WindowsPhone Assets",
                 "identifier": "export-assets-wp",
-                "shortcut": "ctrl alt shift 3",
+                "shortcut": "ctrl alt shift 5",
                 "script": "Export WindowsPhone Assets.sketchscript"
             }
         ],
@@ -33,6 +39,7 @@
             "items":
             [
                 "export-assets-android",
+		"export-assets-android-from-retina",
                 "export-assets-ios",
                 "export-assets-wp"
             ]
